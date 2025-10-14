@@ -79,5 +79,3 @@ Example SVG :
          PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdo
 dD0iNTAwIj4gPHRleHQgeD0iMjAwIiB5PSIyNTAiIGZpbGw9IndoaXRlIj4gSGkhIFlvdSBkZWNv
 ZGVkCiAgICAgICAgdGhpcyF7IiAifSA8L3RleHQ+PC9zdmc+
-
-"cast send 0x5FbDB2315678afecb367f032d93F642f64180aa3 "flipMood(uint256)" 0 --private-key 47e179ec197488593b187f80a00eb0da91f1b9d0b13f8733639f19c30a34926a --rpc-url http://localhost:8545"-- used for flipMood in Anvil by using metamask
