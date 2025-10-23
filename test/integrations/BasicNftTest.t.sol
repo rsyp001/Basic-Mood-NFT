@@ -23,6 +23,13 @@ contract BasicNftTest is Test {
         assert(keccak256(abi.encodePacked(expected)) == keccak256(abi.encodePacked(actual)));
     }
 
+    function testSymbol() external {
+        string memory expected = "DOG";
+        string memory actual = basicNft.symbol();
+
+        assert(keccak256(abi.encodePacked(actual)) == keccak256(abi.encodePacked(expected)));
+    }
+
     function testCanMintAndHaveABalance() external {
         vm.prank(user);
         basicNft.mintNft(PUG);
